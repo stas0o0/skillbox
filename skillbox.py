@@ -20,9 +20,6 @@
 # print("Хорошего дня!")
 
 
-
-
-
 # number = int(input("Введите число: "))
 #
 # if number % 2 == 0:
@@ -40,8 +37,6 @@
 #     print("Правельный результат:", summ)
 
 
-
-
 # a = int(input())
 # b = int(input())
 # c = int(input())
@@ -51,7 +46,6 @@
 #     print(b)
 # if a>b and a>c:
 #     print(a)
-
 
 
 # x = int(input())
@@ -78,9 +72,6 @@
 # print("Удачной игры!")
 
 
-
-
-
 # money = int(input("Сколько мама дала денег? "))
 # cheese = 60
 # ice_cream = 20
@@ -95,9 +86,6 @@
 #     print("Денег не хватило даже на сыр!")
 
 
-
-
-
 # cargo_1 = int(input())
 # cargo_2 = int(input())
 # if cargo_1 > cargo_2:
@@ -106,7 +94,6 @@
 #     print("Второй груз тяжелее первого")
 # else:
 #     print("Оба груза весят одинаково")
-
 
 
 # profit = int(input("Введите свою зарплату"))
@@ -124,9 +111,6 @@
 #         print("Cтавка налога (30%) равняется: ", tax)
 
 
-
-
-
 # coin_1 = int(input("Введите вес 1й монетки:"))
 # coin_2 = int(input("Введите вес 2й монетки:"))
 # coin_3 = int(input("Введите вес 3й монетки:"))
@@ -138,8 +122,6 @@
 #     print("Вторя легче")
 
 
-
-
 # older = int(input("Введите  свой возраст: "))
 # time = int(input("Введите время за которое вы пробежали 100 метров: "))
 # if older <= 18 and time <= 15:
@@ -147,9 +129,6 @@
 # else:
 #     print("Извегите вы неподходите")
 # print("Удачи!")
-
-
-
 
 
 # balls = int(input("Сколько баллов набрал? "))
@@ -160,15 +139,11 @@
 #     print("К сожелению, ты не прошёл в наш университет.")
 
 
-
-
 # temperature = int(input("Введите температуру: "))
 # if temperature < 0 or temperature > 100:
 #     print("Опасно! Температура не подходит!")
 # else:
 #     print("Температура в пределах нормы.")
-
-
 
 
 # time = int(input("Введтите время: "))
@@ -186,14 +161,12 @@
 # print("Пороль верный. Добро пожаловать! ")
 
 
-
 # balans = int(input("Сколько денег пришло? "))
 # while balans > 5000:
 #     prise = int(input("Введите стоистоть товара: "))
 #     balans -= prise
 # print("Внимание! На болансе мало денег! Остановитесь!")
 # print("Баланс счета", balans)
-
 
 
 # number = int(input('Введите число: '))
@@ -208,7 +181,6 @@
 # while number < 98:
 #     number += 7
 #     print(number)
-
 
 
 # weather = int(input("`Введите градусы на улице: "))
@@ -234,9 +206,6 @@
 # print(summ)
 
 
-
-
-
 # books = int(input("Сколько книг выдал библиотекарь? "))
 # summ =  0
 # summ_2 = 0
@@ -253,9 +222,6 @@
 #         print("Библиотекарь: На сегодня всё. Благодарю за помощь!")
 #         print("Цель практики ещё не достигнута — встретимся завтра.")
 #         break
-
-
-
 
 
 # money = int(input("Введите стартовую сумму: "))
@@ -282,15 +248,12 @@
 #         count -= 1
 
 
-
 # while True:
 #     active = int(input("Продолжаем работать? 1/0: "))
 #     if active == 0:
 #         print("Приложение закрывается…")
 #         break
 # print("Работа завершена")
-
-
 
 
 # exit_code = 550
@@ -302,7 +265,6 @@
 #         break
 
 
-
 # count = int(input("сколько раз вывести програу? "))
 # count_1 = 0
 # while count_1 < count:
@@ -310,15 +272,11 @@
 #     count_1 += 1
 
 
-
-
 # count = int(input("Введите количесвто напоминаний: "))
 # count_1 = 0
 # while count_1 < count:
 #     count_1 += 1
 #     print("Вы хотели не забыть о чём-то")
-
-
 
 
 # print("Программа для отслеживания температуры")
@@ -338,7 +296,6 @@
 #             print("Сбор данных остановлен")
 #             stop_program = True
 #     last_temperature = sensor
-
 
 
 # n = int(input("Введите число: "))
@@ -375,8 +332,6 @@
 #     print()
 
 
-
-
 # x = int(input("Вклад в банке: "))
 # y = int(input("Проценты: "))
 # p = int(input("Порог вклада: "))
@@ -386,9 +341,6 @@
 #     print(n,"год.",x + (((x / 100)*y)//1))
 #     x = x + (((x / 100)*y)//1)
 # print("Кол-во лет для достижения порога:",n)
-
-
-
 
 
 # number = int(input("Введите число: "))
@@ -401,8 +353,6 @@
 #     print("Число простое")
 # else:
 #     print("Число составное")
-
-
 
 
 # seconds = int(input('Введите время для обратного отсчёта (в секундах): '))
@@ -425,7 +375,6 @@
 # print("Запасы гречки закончились!")
 
 
-
 # start = -2
 # end =  2
 # step = -1
@@ -437,7 +386,6 @@
 # for x in range(start, end - 1, step):
 #     y = x ** 3 + 2 * (x ** 2) - 4 * x + 1
 #     print('В точке', x, 'функция равна', y)
-
 
 
 # educational_grant = 10000
@@ -453,13 +401,6 @@
 # print("Сумма денег, которую необходимо получить у родителей:", total_enough, "рублей.")
 
 
-
-
-
-
-
-
-
 # a = int(input())
 # print(a)
 # x = 0
@@ -468,8 +409,6 @@
 # while a %2==0:
 #     x +=1
 # print(x)
-
-
 
 
 # upper_letter = "Ы"
@@ -488,8 +427,6 @@
 # print("Маленьких букв Ы: ", lower_count)
 
 
-
-
 # rows = 5
 # sittings = 7
 # meters = 3
@@ -503,7 +440,6 @@
 # to_print = sittings_symbols + meters_symbols + sittings_symbols
 # for _ in range(rows):
 #     print(to_print)
-
 
 
 # text = input("Ввелите тест: ")
@@ -530,8 +466,29 @@
 # print('Произведено молока за день:', milk)
 
 
+# for i in range(6):
+#     for j in range(6):
+#         number = i+j*2
+#         print(number, end="\t")
+#     print()
 
+# n = int(input("Введите число: "))
+# for i in range(1,n+1):
+#     for j in range(i):
+#         print(i,end=" ")
+#     print()
 
+# x_lim = int(input("Введите ширину: "))
+# y_lim = int(input("Введите высоту: "))
+# for y in range(y_lim):
+#     for x in range(x_lim):
+#         if x == 0 or x == x_lim-1:
+#             print("|", end='')
+#         elif y == 0 or y == y_lim-1:
+#             print('-', end='')
+#         else:
+#             print(' ', end='')
+#     print()
 
 
 
