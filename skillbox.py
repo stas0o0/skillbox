@@ -491,5 +491,12 @@
 #     print()
 
 
-
-
+# summ = 0
+# number = int(input("Ввелите количество чисел: "))
+# for i in range(number):
+#     num1 = int(input("Введите число: "))
+#     if num1 % 2 == 0:
+#         continue
+#     else:
+#         summ += 1
+# print("Количество протых чисел в последовательности:", summ)
