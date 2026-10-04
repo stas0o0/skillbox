@@ -500,3 +500,30 @@
 #     else:
 #         summ += 1
 # print("Количество протых чисел в последовательности:", summ)
+
+# num = int(input("Введите количество чисел: "))
+#
+# max_summ =-1
+# best_number = 0
+#
+# for i in  range(num):
+#     number = int(input("Введите число: "))
+#     temp = number
+#     sum_digits = 0
+#     while temp > 0:
+#         sum_digits += temp % 10
+#         temp //= 10
+#     if sum_digits > max_summ:
+#         max_summ = sum_digits
+#         best_number = number
+# print("Число", best_number, "имеет максимальную сумму цифр", max_summ)
+
+
+
+# height = int(input("Введите высту пирамиды: "))
+# for i in range(1, height + 1):
+#     for j in range(height-i):
+#         print(" ", end="\t")
+#     for k in range(2*i-1):
+#         print("#", end="\t")
+#     print()
