@@ -495,11 +495,15 @@
 # number = int(input("Ввелите количество чисел: "))
 # for i in range(number):
 #     num1 = int(input("Введите число: "))
-#     if num1 % 2 == 0:
-#         continue
-#     else:
-#         summ += 1
-# print("Количество протых чисел в последовательности:", summ)
+#     if num1 >1:
+#         divisors = 0
+#         for j in range(1, num1+1):
+#             if num1 % j == 0:
+#                 divisors += 1
+#         if divisors == 2:
+#             summ += 1
+# print("Количество простых чисел в последовательности: ", summ)
+
 
 # num = int(input("Введите количество чисел: "))
 #
@@ -519,13 +523,10 @@
 # print("Число", best_number, "имеет максимальную сумму цифр", max_summ)
 
 
-
-# height = int(input("Введите высту пирамиды: "))
+# height = int(input("Введите высоту пирамиды: "))
 # for i in range(1, height + 1):
-#     for j in range(height-i):
-#         print(" ", end="\t")
-#     for k in range(2*i-1):
-#         print("#", end="\t")
+#     for j in range(height - i):
+#         print(" ", end="")
+#     for k in range(2 * i - 1):
+#         print("#", end="")
 #     print()
-
-
