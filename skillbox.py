@@ -530,3 +530,14 @@
 #     for k in range(2 * i - 1):
 #         print("#", end="")
 #     print()
+
+# height = int(input("Введите высоту примады: "))
+# new_num = 1
+# for line in range(height):
+#     space_count = height - line - 1
+#     print('   ' * space_count, end='')
+#     for number in range(line + 1):
+#         print(new_num, end='    ')
+#         new_num += 2
+#     print()
+
