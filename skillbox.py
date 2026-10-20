@@ -541,3 +541,27 @@
 #         new_num += 2
 #     print()
 
+# summ = int(input("Сколько ставим? "))
+# kef = float(input("Какой коэффицент? "))
+# win = round(summ * kef,2)
+# print("Потенциальный выигрыш:",win)
+
+
+# age = int(input("Сколько лет? "))
+# temp = float(input("Какая темпреатура тела? "))
+# summ = (age*1.5)*temp
+# print(round(summ,1))
+
+# height = float(input("Введите рост: "))
+# weight = float(input("Введите массу тела: "))
+# mass = round(weight / height ** 2, 2)
+# print(mass)
+#
+# if mass < 18.5:
+#     print("Недобор")
+# elif mass < 25:
+#     print("Нормально")
+# elif mass < 30:
+#     print("Пербор")
+# else:
+#     print("У вас ожирение")
